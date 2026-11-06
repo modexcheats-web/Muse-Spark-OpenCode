@@ -1,0 +1,16 @@
+node_modules/
+.env
+.env.bak-*
+*.log
+logs/
+records*.jsonl
+.muse-device.json
+.muse-device.json.tmp
+.muse-proxy-key
+.muse-session.json
+.muse-session.json.bak-*
+.muse-sessions.json
+.muse-proxy.pid
+.muse-secret.txt
+muse.ai.cookies.json
+muse.ai.cookies.json.bak-*

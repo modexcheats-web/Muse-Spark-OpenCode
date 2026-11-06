@@ -1,0 +1,23 @@
+{
+  "name": "muse-openai-proxy",
+  "version": "0.1.0",
+  "private": true,
+  "description": "OpenAI-compatible local proxy for the free Meta Muse web session",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test:flow": "node scripts/test-flow.js",
+    "test:tools": "node scripts/test-tools.js",
+    "test:reasoning": "node scripts/test-reasoning.js",
+    "test:openai": "node scripts/test-openai.js",
+    "test:image": "node scripts/test-image.js",
+    "devices": "node scripts/muse-devices.js",
+    "install:opencode": "node scripts/install-opencode-provider.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
