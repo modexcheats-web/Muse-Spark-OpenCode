@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/muse-spark-banner.png" alt="Muse Spark → OpenCode: proxy local OpenAI-compatível" width="100%">
+</p>
+
 # Muse Spark → OpenAI proxy
 
 Proxy local que expõe a sessão web gratuita do **Meta Muse Spark** como uma API compatível com OpenAI, para usar como provider do OpenCode.
